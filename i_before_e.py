@@ -41,4 +41,20 @@ def run_tests():
 
 # Edit this code
 def spell_check(word):
+    if 'cei' in word[0:-1]:
+         print('Correct')
+
+    elif 'cie' in word[0:-1]:
+         print('False')
+
+    elif 'ie' in word[0:-1]:
+         print('Correct')
+
+    else:
+         print('False')
+    
+
+    
+    
+    
 
